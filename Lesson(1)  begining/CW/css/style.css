@@ -1,0 +1,42 @@
+body{
+    background-color: gray;
+}
+
+.text_decoration{
+    color: white;
+    text-shadow: black 1px 1px;
+}
+.pic{
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    border: black solid 10px;
+}
+
+p.text_decoration{
+    border-left: rgba(0,0,0,0.3) 2px solid;
+    padding-left: 10px;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    border-left:rgba(0,0,0,0.3) 2px solid ;
+}
+li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    color: white;
+}
