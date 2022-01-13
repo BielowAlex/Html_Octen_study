@@ -1,0 +1,40 @@
+
+
+header{
+    background-color: darkred;
+}
+header h1{
+     text-align: center;
+    color: white;
+}
+
+.block1{
+    height: 70px;
+    background-color: silver;
+    margin-bottom: -16px;
+}
+
+.block1 p{
+    padding: 20px 10px;
+}
+
+.block2{
+    background-color: cornflowerblue;
+    height: 100px;
+    /*margin-bottom: -16px;*/
+}
+.block2 p{
+padding-top: 40px;
+}
+.box_green{
+    height: 250px;
+    width: 250px;
+    background-color: green;
+}
+
+.box_purple{
+    height: 250px;
+    width: 250px;
+    background-color: mediumpurple;
+    border-radius: 25px;
+}

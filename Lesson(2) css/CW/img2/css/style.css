@@ -1,0 +1,13 @@
+.block{
+    background-color: grey;
+    height: 300px;
+    width: 500px;
+    margin-top: 40px;
+    box-shadow: saddlebrown -15px -15px 70px -10px;
+}
+
+.ramka{
+    margin-top: 15px;
+    border-left: red solid 4px ;
+    padding-left: 15px;
+}
