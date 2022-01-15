@@ -1,0 +1,63 @@
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.long{
+    width: 1200px;
+    height: 70px;
+    background-color: #7CCCE3;
+}
+.f{
+    background-color: orange;
+}
+.middle1{
+    margin-top: 10px;
+    width: 300px;
+    height: 600px;
+}
+.middle2{
+    margin-top: 10px;
+    width: 890px;
+    height: 600px;
+    margin-left: 10px;
+}
+.hero{
+    height: 200px;
+    width: 300px;
+    background-color: mediumpurple;
+}
+.sidebar{
+    margin-top: 10px;
+    height: 380px;
+    width: 300px;
+    background-color: green;
+}
+.main{
+    width: 890px;
+    height: 400px;
+    background-color: yellow;
+}
+.extra{
+    width: 890px;
+    height: 180px;
+    background-color: grey;
+    margin-top: 10px;
+}
+.images{
+    height: 250px;
+    width: 890px;
+    background-color: limegreen;
+    margin-bottom: 10px;
+}
+.posts{
+    width: 300px;
+    height: 250px;
+    margin-bottom: 10px;
+    background-color: pink;
+}
+

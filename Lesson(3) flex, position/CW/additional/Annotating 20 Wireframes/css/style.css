@@ -1,0 +1,119 @@
+.header{
+    border: 10px solid #292526;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    width: 1198px;
+}
+.block{
+    background-color: silver;
+}
+
+.header > .block{
+    width: 180px;
+    height: 40px;
+}
+.menu{
+    height: 1940px;
+    border: 10px solid #292526;
+    width: 16%;
+
+}
+.menu > .block{
+    width: 180px;
+    height: 40px;
+    margin: 10px;
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -10px;
+    width: 1240px;
+}
+.wrap2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 82.2%;
+    align-content:  flex-start;
+}
+.bigBord{
+    display: flex;
+    justify-content: center;
+    border: 10px solid #292526;
+    width: 100%;
+    margin-left: -10px;
+    height: 500px;
+}
+.bigBord > .block{
+    width: 90%;
+    height: 410px;
+    margin: 40px;
+}
+
+.miniBord{
+    display: flex;
+    justify-content: space-around;
+    border: 10px solid #292526;
+    width: 100%;
+    margin-left: -10px;
+    height: 250px;
+    margin-top: -10px;
+}
+.miniBord > .block{
+    width: 23%;
+    height: 230px;
+    margin-top: 10px;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 10px solid #292526;
+    width: 79%;
+    height: 950px;
+    margin-top: -10px;
+    margin-left: -10px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.list > .block{
+    height: 130px;
+    width: 40%;
+}
+
+.miniList{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 10px solid #292526;
+    width: 21%;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+.miniList > .block{
+    height: 100px;
+    width: 90%;
+    margin-top: 10px;
+}
+.footer{
+    width: 100%;
+    border: 10px solid #292526;
+    margin-top: -10px;
+    margin-left: -10px;
+    height: 230px;
+}
+
+.footer > .block{
+    width: 90%;
+    height: 40px;
+    margin: 50px auto;
+}
+
+.block_two{
+    width: 10%;
+    height: 40px;
+    background-color: silver;
+    margin: 0 auto;
+}

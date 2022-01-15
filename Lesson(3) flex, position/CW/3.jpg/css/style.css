@@ -1,0 +1,53 @@
+/*=====================================================*/
+/*wraps*/
+/*=====================================================*/
+.wrap {
+    border: 4px solid grey;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    height: 850px;
+    width: 1200px;
+    justify-content: space-between;
+}
+.wrap2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 950px;
+    height: 630px;
+}
+/*=====================================================*/
+/*block base values*/
+/*=====================================================*/
+.block{
+    background-color: silver;
+}
+.block > p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+    font-size: 30px;
+}
+/*=====================================================*/
+/*blocks*/
+/*=====================================================*/
+.a{
+    width: 1200px;
+    height: 200px;
+}
+.b{
+    width: 950px;
+    height: 300px;
+}
+.mini{
+    height: 300px;
+    width: 300px;
+}
+.f{
+    width: 230px;
+    height: 620px;
+}
+/*=====================================================*/
