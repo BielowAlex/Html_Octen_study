@@ -57,13 +57,13 @@ body{
     border-radius: 50px;
 }
 .sec_hero > .figure4{
-    width: 200px;
-    height: 100px;
+    width: 250px;
+    height: 90px;
     background-color: grey;
-    margin: 0px auto;
+    margin: 0 auto;
     border-radius: 60px;
     position: relative;
-    bottom: 130px;
+    bottom: 125px;
     left: 200px;
 }
 .destinations{
@@ -98,7 +98,6 @@ body{
 }
 
 .sec_list{
-    /*padding-top: 100px;*/
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -109,12 +108,49 @@ body{
     height: 200px;
     background-color: silver;
     margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
+ .block > .line1{
+    background-color: darkgray;
+    width: 100px;
+    height: 10px;
+     border-radius: 10px;
+     margin-top: 10px;
+}
+.block > .line2{
+    background-color: darkgray;
+    width: 150px;
+    height: 20px;
+    border-radius: 10px;
+}
+
 .sec_list > .long_block{
     width: 595px;
     height: 200px;
     background-color: silver;
     margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.long_block > .line1{
+    background-color: darkgray;
+    width: 350px;
+    height: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.long_block > .line2{
+    background-color: darkgray;
+    width: 450px;
+    height: 20px;
+    border-radius: 10px;
 }
 
 .sec_offers{
@@ -137,7 +173,7 @@ body{
     height: 30px;
     background-color: grey;
     margin-left: 10px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin-bottom: 10px;
 }
 .desc > .figure2{
@@ -156,6 +192,15 @@ body{
     background-color: darkgray;
     margin-left: 10px;
     border-radius: 3px;
+}
+
+.desc > .figure4{
+    width: 100px;
+    height: 30px;
+    background-color: grey;
+    margin-left: 10px;
+    border-radius: 8px;
+    margin-top: 95px;
 }
 
 .footer{
