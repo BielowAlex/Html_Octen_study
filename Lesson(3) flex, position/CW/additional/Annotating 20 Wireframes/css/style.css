@@ -4,6 +4,7 @@
     padding: 10px;
     justify-content: space-between;
     width: 1198px;
+    border-radius: 10px;
 }
 .block{
     background-color: silver;
@@ -17,6 +18,7 @@
     height: 1940px;
     border: 10px solid #292526;
     width: 16%;
+    border-radius: 10px;
 
 }
 .menu > .block{
@@ -103,6 +105,7 @@
     margin-top: -10px;
     margin-left: -10px;
     height: 230px;
+    border-radius: 10px;
 }
 
 .footer > .block{
