@@ -1,0 +1,49 @@
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.w100{
+    width: 100%;
+}
+
+p{
+    color: white;
+    font-size: 35px;
+}
+
+.header{
+    height: 150px;
+    background-color: #0C65A7;
+    border-bottom: 4px solid #60a2e3;
+}
+
+
+.nav{
+    height: 100px;
+    background-color: #124B78;
+}
+
+.main{
+    width: 69%;
+    height: 500px;
+    background-color: #16A2C5;
+    border-right: 4px solid #60a2e3;
+}
+.aside{
+    width: 30.68%;
+    height: 500px;
+    background-color: #5275AD;
+}
+
+.footer{
+    height: 150px;
+    background-color: #7CCCE3;
+}
+
+.position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

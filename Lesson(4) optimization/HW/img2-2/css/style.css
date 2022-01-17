@@ -1,0 +1,38 @@
+.wrap {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.txt-pos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: white;
+    font-size: 55px;
+}
+
+.h400 {
+    height: 400px;
+}
+
+.mini_widgets {
+    margin-top: 20px;
+    width: 385px;
+    height: 385px;
+    background-color: #16457A;
+}
+
+.h700 {
+    height: 700px;
+}
+
+.bigBord-base {
+    width: 100%;
+    background-color: #2269BB;
+    margin-top: 20px;
+}
