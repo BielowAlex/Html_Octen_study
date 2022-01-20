@@ -1,0 +1,162 @@
+.block {
+    background-color: #676767;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-size: 30px;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 200px;
+    height: 100px;
+}
+
+.header {
+    width: 790px;
+    height: 100px;
+}
+
+.nav {
+    margin-top: 10px;
+    width: 200px;
+    height: 1000px;
+
+}
+
+.info {
+    width: 580px;
+    height: 350px;
+}
+
+.middle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 1000px;
+    width: 790px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.ad {
+    width: 200px;
+    height: 350px;
+}
+
+.type {
+    height: 1000px;
+    width: 580px;
+}
+
+.sec_info {
+    margin-bottom: 10px;
+}
+
+.sec_product {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 200px;
+    height: 1000px;
+}
+
+.sec_tool {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.store {
+    width: 200px;
+    height: 170px;
+    margin-top: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    margin: 10px auto;
+}
+
+@media screen and (max-width: 992px) {
+
+    .section {
+        width: 600px;
+    }
+
+    .logo{
+        width: 100px;
+        height: 100px;
+    }
+    .header{
+        width: 500px;
+        height: 100px;
+    }
+
+    .nav{
+        width: 600px;
+        height: 100px;
+    }
+    .wrap{
+        width: 600px;
+    }
+
+    .middle{
+        width: 600px;
+        margin-left: 0;
+    }
+    .info{
+        height: 200px;
+        width: 490px;
+    }
+    .ad{
+        height: 200px;
+        width: 100px;
+    }
+
+    .type{
+        width: 600px;
+        height: 500px;
+        margin-bottom: 10px;
+    }
+    .product{
+        height: 300px;
+        width: 600px;
+    }
+    .sec_tool{
+        display: flex;
+        width: 600px;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .store{
+        width: 295px;
+        height: 200px;
+    }
+    .footer{
+        width: 600px;
+    }
+}
