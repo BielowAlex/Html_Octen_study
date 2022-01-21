@@ -20,6 +20,7 @@
     flex-wrap: wrap;
     width: 1000px;
     margin: 0 auto;
+    height: 1370px;
 }
 
 .logo {
@@ -48,7 +49,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    height: 1000px;
+    height: 1360px;
     width: 790px;
     margin-left: 10px;
     margin-top: 10px;
@@ -83,6 +84,9 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    position: relative;
+    bottom: 360px;
+    margin-bottom: -100px;
 }
 
 .store {
@@ -120,11 +124,13 @@
     }
     .wrap{
         width: 600px;
+        height: 1360px;
     }
 
     .middle{
         width: 600px;
         margin-left: 0;
+        height: 1000px;
     }
     .info{
         height: 200px;
@@ -149,7 +155,10 @@
         width: 600px;
         flex-direction: row;
         justify-content: space-between;
-        margin-top: 20px;
+        position: static;
+        margin-top: 10px;
+        height: 200px;
+        margin-bottom: 0;
     }
 
     .store{
